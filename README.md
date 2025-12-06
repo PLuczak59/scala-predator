@@ -6,6 +6,11 @@ Un jeu de simulation prédateur-proie développé en Scala avec des principes de
 
 Ce projet implémente un jeu où le joueur contrôle une proie (rectangle vert) qui se déplace automatiquement dans la direction choisie, tout en échappant à des prédateurs (cercles rouges) qui le poursuivent intelligemment. Les prédateurs utilisent un algorithme du plus court chemin (BFS) pour traquer la proie sur un terrain torique.
 
+## Démonstration
+
+https://github.com/user-attachments/assets/78c572fc-1888-4f0a-84fd-5b6032baf41d
+
+
 ## Fonctionnalités
 
 - **Contrôle clavier continu** : Utilisez les flèches directionnelles pour changer la direction de la proie
@@ -55,3 +60,4 @@ Les paramètres suivants peuvent être modifiés dans le code :
 private final val cycleTime: Int = 100           // Vitesse du jeu en ms
 private final val numberOfPredator: Int = 3      // Nombre de prédateurs
 private final val cellSize: Int = 20             // Taille des cellules en pixels
+
